@@ -1,0 +1,142 @@
+2026-03-14T17:05:32.697+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jie/.openclaw/canvas)
+2026-03-14T17:05:32.816+08:00 [heartbeat] started
+2026-03-14T17:05:32.824+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-14T17:05:32.831+08:00 [gateway] agent model: modelstudio/qwen3.5-plus
+2026-03-14T17:05:32.833+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 90693)
+2026-03-14T17:05:32.837+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-14.log
+2026-03-14T17:05:32.866+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-14T17:05:32.906+08:00 [gateway] device pairing auto-approved device=a8a0409149852427397419d4c1accca3d7036ce4a2b31e832dc04318502a79c5 role=operator
+2026-03-14T17:06:21.384+08:00 [gateway] device pairing auto-approved device=a8a0409149852427397419d4c1accca3d7036ce4a2b31e832dc04318502a79c5 role=operator
+2026-03-14T17:16:23.880+08:00 [gateway] signal SIGTERM received
+2026-03-14T17:16:23.884+08:00 [gateway] received SIGTERM; shutting down
+2026-03-14T17:16:23.893+08:00 [gmail-watcher] gmail watcher stopped
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Unknown config keys ────────────────────────╮
+│                                              │
+│  - auth.profiles.modelstudio:default.apiKey  │
+│  - models.providers.modelstudio.api_key      │
+│                                              │
+├──────────────────────────────────────────────╯
+│
+◇  Doctor ────────────────────────────────────────────╮
+│                                                     │
+│  Run "openclaw doctor --fix" to remove these keys.  │
+│                                                     │
+├─────────────────────────────────────────────────────╯
+2026-03-14T17:16:42.200+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jie/.openclaw/canvas)
+2026-03-14T17:16:42.348+08:00 [heartbeat] started
+2026-03-14T17:16:42.360+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-14T17:16:42.370+08:00 [gateway] agent model: modelstudio/qwen3.5-plus
+2026-03-14T17:16:42.374+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 92804)
+2026-03-14T17:16:42.379+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-14.log
+2026-03-14T17:16:42.420+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-14T17:17:15.224+08:00 [gateway] signal SIGTERM received
+2026-03-14T17:17:15.228+08:00 [gateway] received SIGTERM; shutting down
+2026-03-14T17:17:15.236+08:00 [gmail-watcher] gmail watcher stopped
+2026-03-14T17:17:21.775+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jie/.openclaw/canvas)
+2026-03-14T17:17:21.843+08:00 [heartbeat] started
+2026-03-14T17:17:21.852+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-14T17:17:21.859+08:00 [gateway] agent model: modelstudio/qwen3.5-plus
+2026-03-14T17:17:21.862+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 92933)
+2026-03-14T17:17:21.866+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-14.log
+2026-03-14T17:17:21.898+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-14T17:18:56.064+08:00 [ws] ⇄ res ✓ chat.history 68ms conn=b6173d96…e109 id=6af38503…e787
+2026-03-14T17:21:25.828+08:00 [gateway] device pairing auto-approved device=25b20ed19071736f2a43726433a2fd49b07c72d9717d50aa13a3b252533bad2c role=operator
+2026-03-14T17:21:25.833+08:00 [ws] webchat connected conn=a2f3e9d7-14f9-40dd-806a-cd9fb74bc372 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13
+2026-03-14T17:28:30.964+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, wizard.lastRunAt, wizard.lastRunCommand, agents.defaults.compaction, channels, plugins)
+2026-03-14T17:28:30.977+08:00 [gateway] signal SIGUSR1 received
+2026-03-14T17:28:30.982+08:00 [gateway] received SIGUSR1; restarting
+2026-03-14T17:28:30.994+08:00 [gmail-watcher] gmail watcher stopped
+2026-03-14T17:28:31.013+08:00 [ws] webchat disconnected code=1006 reason=n/a conn=a2f3e9d7-14f9-40dd-806a-cd9fb74bc372
+2026-03-14T17:28:31.047+08:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-14T17:28:46.216+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-03-14T17:28:46.219+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-03-14T17:28:46.222+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-03-14T17:28:46.268+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-03-14T17:28:46.273+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-03-14T17:28:46.466+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-03-14T17:28:46.469+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-03-14T17:28:46.472+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-03-14T17:28:46.474+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-03-14T17:28:46.479+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-03-14T17:28:46.557+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jie/.openclaw/canvas)
+2026-03-14T17:28:46.650+08:00 [heartbeat] started
+2026-03-14T17:28:46.659+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-14T17:28:46.664+08:00 [gateway] agent model: modelstudio/qwen3.5-plus
+2026-03-14T17:28:46.667+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 94467)
+2026-03-14T17:28:46.670+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-14.log
+2026-03-14T17:28:46.702+08:00 [info]: [ 'client ready' ]
+2026-03-14T17:28:46.785+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-14T17:28:46.807+08:00 [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T17:28:47.089+08:00 [feishu] feishu[default]: bot open_id resolved: ou_1d185e39e02c407bc234eff357ecab85
+2026-03-14T17:28:47.091+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T17:28:47.099+08:00 [feishu] feishu[default]: starting WebSocket connection...
+2026-03-14T17:28:47.101+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T17:28:47.107+08:00 [feishu] feishu[default]: WebSocket client started
+2026-03-14T17:28:47.298+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-14T17:28:50.845+08:00 [ws] webchat connected conn=68554ab3-f8ef-4ddf-ae2a-9392f52a6655 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13
+2026-03-14T17:28:51.006+08:00 [ws] ⇄ res ✓ node.list 55ms conn=68554ab3…6655 id=46af09f0…5f14
+2026-03-14T17:28:51.010+08:00 [ws] ⇄ res ✓ device.pair.list 111ms conn=68554ab3…6655 id=5eef99f4…0826
+2026-03-14T17:28:51.025+08:00 [ws] ⇄ res ✓ chat.history 125ms conn=68554ab3…6655 id=02ddb505…8fcf
+2026-03-14T17:28:51.030+08:00 [ws] ⇄ res ✓ models.list 101ms conn=68554ab3…6655 id=9c17e7d7…4933
+2026-03-14T17:34:59.136+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, plugins.entries.openclaw-qqbot, plugins.installs)
+2026-03-14T17:34:59.526+08:00 [gateway] signal SIGUSR1 received
+2026-03-14T17:34:59.573+08:00 [gateway] received SIGUSR1; restarting
+2026-03-14T17:34:59.688+08:00 [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T17:34:59.697+08:00 [gmail-watcher] gmail watcher stopped
+2026-03-14T17:34:59.720+08:00 [ws] webchat disconnected code=1006 reason=n/a conn=68554ab3-f8ef-4ddf-ae2a-9392f52a6655
+2026-03-14T17:34:59.756+08:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-14T17:35:31.218+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-03-14T17:35:31.224+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-03-14T17:35:31.228+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-03-14T17:35:31.232+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-03-14T17:35:31.238+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-03-14T17:35:32.452+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-03-14T17:35:32.455+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-03-14T17:35:32.458+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-03-14T17:35:32.461+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-03-14T17:35:32.466+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-03-14T17:35:32.546+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jie/.openclaw/canvas)
+2026-03-14T17:35:32.650+08:00 [heartbeat] started
+2026-03-14T17:35:32.659+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-14T17:35:32.665+08:00 [gateway] agent model: modelstudio/qwen3.5-plus
+2026-03-14T17:35:32.668+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 95928)
+2026-03-14T17:35:32.673+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-14.log
+2026-03-14T17:35:32.704+08:00 [info]: [ 'client ready' ]
+2026-03-14T17:35:32.800+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-14T17:35:32.824+08:00 [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T17:35:33.091+08:00 [feishu] feishu[default]: bot open_id resolved: ou_1d185e39e02c407bc234eff357ecab85
+2026-03-14T17:35:33.099+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T17:35:33.111+08:00 [feishu] feishu[default]: starting WebSocket connection...
+2026-03-14T17:35:33.114+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T17:35:33.125+08:00 [feishu] feishu[default]: WebSocket client started
+2026-03-14T17:35:33.315+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-14T17:35:41.774+08:00 [ws] webchat connected conn=a3d62046-2677-4a39-8d62-c9fbd42633bd remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13
+2026-03-14T17:45:13.118+08:00 [ws] ⇄ res ✓ node.list 85ms conn=a3d62046…33bd id=27f12976…b145
+2026-03-14T17:45:52.897+08:00 [ws] ⇄ res ✓ node.list 131ms conn=a3d62046…33bd id=54112342…60dd

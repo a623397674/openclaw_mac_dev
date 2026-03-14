@@ -1,0 +1,58 @@
+(node:90693) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-14T17:05:43.349+08:00 [ws] unauthorized conn=edefa173-9ee8-41d8-a0c9-1f7c31519c70 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13 reason=token_mismatch
+2026-03-14T17:05:43.353+08:00 [ws] closed before connect conn=edefa173-9ee8-41d8-a0c9-1f7c31519c70 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) TraeCN/1.107.1 Chrome/142.0.7444.235 Electron/39.2.7 Safari/537.36 code=1008 reason=unauthorized: gateway token mismatch (open the dashboard URL and paste the token in Control UI settings)
+2026-03-14T17:05:45.566+08:00 [ws] unauthorized conn=b721b9ae-9c54-4686-a8d3-0618190bbad9 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13 reason=token_mismatch
+2026-03-14T17:05:45.571+08:00 [ws] closed before connect conn=b721b9ae-9c54-4686-a8d3-0618190bbad9 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15 code=1008 reason=unauthorized: gateway token mismatch (open the dashboard URL and paste the token in Control UI settings)
+2026-03-14T17:05:59.341+08:00 [ws] unauthorized conn=0dcc19e6-5b59-4356-83a1-b13689e5b299 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13 reason=device_token_mismatch
+2026-03-14T17:05:59.347+08:00 [ws] closed before connect conn=0dcc19e6-5b59-4356-83a1-b13689e5b299 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) TraeCN/1.107.1 Chrome/142.0.7444.235 Electron/39.2.7 Safari/537.36 code=1008 reason=unauthorized: device token mismatch (rotate/reissue device token)
+2026-03-14T17:06:00.586+08:00 [ws] unauthorized conn=229433a9-7526-4de0-9f13-f23793ac1d47 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13 reason=device_token_mismatch
+2026-03-14T17:06:00.629+08:00 [ws] closed before connect conn=229433a9-7526-4de0-9f13-f23793ac1d47 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15 code=1008 reason=unauthorized: device token mismatch (rotate/reissue device token)
+2026-03-14T17:06:15.337+08:00 [ws] unauthorized conn=d04a8258-3d59-425b-bb66-17526ce97497 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13 reason=token_mismatch
+2026-03-14T17:06:15.340+08:00 [ws] closed before connect conn=d04a8258-3d59-425b-bb66-17526ce97497 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) TraeCN/1.107.1 Chrome/142.0.7444.235 Electron/39.2.7 Safari/537.36 code=1008 reason=unauthorized: gateway token mismatch (open the dashboard URL and paste the token in Control UI settings)
+2026-03-14T17:06:15.602+08:00 [ws] unauthorized conn=430264df-e1c8-42c2-9911-639b1426cdde remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13 reason=token_mismatch
+2026-03-14T17:06:15.606+08:00 [ws] closed before connect conn=430264df-e1c8-42c2-9911-639b1426cdde remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15 code=1008 reason=unauthorized: gateway token mismatch (open the dashboard URL and paste the token in Control UI settings)
+2026-03-14T17:06:21.376+08:00 [gateway] security audit: device access upgrade requested reason=scope-upgrade device=a8a0409149852427397419d4c1accca3d7036ce4a2b31e832dc04318502a79c5 ip=unknown-ip auth=token roleFrom=operator roleTo=operator scopesFrom=operator.read scopesTo=operator.admin client=gateway-client conn=e34583c1-299d-4e41-970f-3365ad4e0058
+2026-03-14T17:06:21.905+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-14T17:06:22.269+08:00 [agent/embedded] embedded run agent end: runId=710dda03-c1e9-4ee7-99c6-badf33a7dc93 isError=true model=qwen3.5-plus provider=modelstudio error=HTTP 401: invalid access token or token expired
+2026-03-14T17:06:22.290+08:00 [agent/embedded] auth profile failure state updated: runId=710dda03-c1e9-4ee7-99c6-badf33a7dc93 profile=sha256:8ce8392169d2 provider=modelstudio reason=auth window=cooldown reused=false
+2026-03-14T17:06:22.294+08:00 [agent/embedded] embedded run failover decision: runId=710dda03-c1e9-4ee7-99c6-badf33a7dc93 stage=assistant decision=surface_error reason=auth provider=modelstudio/qwen3.5-plus profile=sha256:8ce8392169d2
+2026-03-14T17:06:58.449+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-14T17:06:58.599+08:00 [agent/embedded] embedded run agent end: runId=67699999-469e-4528-9782-7ae8bfffc63e isError=true model=qwen3.5-plus provider=modelstudio error=HTTP 401: invalid access token or token expired
+2026-03-14T17:06:58.609+08:00 [agent/embedded] auth profile failure state updated: runId=67699999-469e-4528-9782-7ae8bfffc63e profile=sha256:8ce8392169d2 provider=modelstudio reason=auth window=cooldown reused=false
+2026-03-14T17:06:58.612+08:00 [agent/embedded] embedded run failover decision: runId=67699999-469e-4528-9782-7ae8bfffc63e stage=assistant decision=surface_error reason=auth provider=modelstudio/qwen3.5-plus profile=sha256:8ce8392169d2
+2026-03-14T17:13:53.998+08:00 [reload] config reload skipped (invalid config): auth.profiles.modelstudio:default: Unrecognized key: "apiKey"
+2026-03-14T17:16:03.337+08:00 [reload] config reload skipped (invalid config): auth.profiles.modelstudio:default: Unrecognized key: "apiKey", models.providers.modelstudio: Unrecognized key: "api_key"
+2026-03-14T17:16:23.900+08:00 Invalid config at /Users/jie/.openclaw/openclaw.json:\n- auth.profiles.modelstudio:default: Unrecognized key: "apiKey"
+- models.providers.modelstudio: Unrecognized key: "api_key"
+Invalid config at /Users/jie/.openclaw/openclaw.json:\n- auth.profiles.modelstudio:default: Unrecognized key: "apiKey"
+- models.providers.modelstudio: Unrecognized key: "api_key"
+(node:92736) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - auth.profiles.modelstudio:default: Unrecognized key: "apiKey"
+  - models.providers.modelstudio: Unrecognized key: "api_key"
+
+Run: openclaw doctor --fix
+(node:92804) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:92933) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-14T17:19:00.756+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-14T17:19:53.516+08:00 [ws] closed before connect conn=def34ef8-ef7a-478a-a396-8df56f3dfbf3 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1006 reason=n/a
+2026-03-14T17:20:08.647+08:00 [ws] closed before connect conn=71074497-ccb7-41d8-9cd0-7acb1777ba70 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1006 reason=n/a
+2026-03-14T17:20:25.056+08:00 [ws] closed before connect conn=ba385a00-7532-40d3-9a3c-8e6b19baa9a5 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1006 reason=n/a
+2026-03-14T17:21:41.062+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-14T17:22:54.793+08:00 [ws] closed before connect conn=2d1933c2-0619-413a-909e-252ca55d43be remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1006 reason=n/a
+2026-03-14T17:28:30.972+08:00 [reload] config change requires gateway restart (channels, plugins)
+(node:94467) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-14T17:28:39.384+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-14T17:28:46.459+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-14T17:34:59.348+08:00 [reload] config change requires gateway restart (plugins.entries.openclaw-qqbot, plugins.installs)
+(node:95928) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-14T17:35:24.212+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-14T17:35:32.442+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
