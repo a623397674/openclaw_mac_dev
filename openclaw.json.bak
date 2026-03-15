@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-14T09:28:30.387Z"
+    "lastTouchedAt": "2026-03-14T09:34:58.485Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-14T09:28:30.326Z",
@@ -175,7 +175,10 @@
         "modelstudio/glm-4.7": {},
         "modelstudio/kimi-k2.5": {}
       },
-      "workspace": "/Users/jie/.openclaw/workspace"
+      "workspace": "/Users/jie/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      }
     }
   },
   "tools": {
@@ -233,6 +236,24 @@
     "entries": {
       "feishu": {
         "enabled": true
+      },
+      "openclaw-qqbot": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "openclaw-qqbot": {
+        "source": "npm",
+        "spec": "@tencent-connect/openclaw-qqbot@latest",
+        "installPath": "/Users/jie/.openclaw/extensions/openclaw-qqbot",
+        "version": "1.5.7",
+        "resolvedName": "@tencent-connect/openclaw-qqbot",
+        "resolvedVersion": "1.5.7",
+        "resolvedSpec": "@tencent-connect/openclaw-qqbot@1.5.7",
+        "integrity": "sha512-L7FmpZFRCPE8rx5T4QXeAKfoOv+UTkOBIyIcur4VPR4WVfEWAN+GMCa88VZYUf89zy834BaNzJNkHbYdasMqIg==",
+        "shasum": "e9ecfe9edd661bad52c78d01abd4f0817f3cbfae",
+        "resolvedAt": "2026-03-14T09:31:00.437Z",
+        "installedAt": "2026-03-14T09:34:57.314Z"
       }
     }
   }

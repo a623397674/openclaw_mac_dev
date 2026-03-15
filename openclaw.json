@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-14T09:34:58.485Z"
+    "lastTouchedAt": "2026-03-14T10:07:46.552Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-14T09:28:30.326Z",
@@ -201,6 +201,14 @@
       "connectionMode": "websocket",
       "domain": "feishu",
       "groupPolicy": "open"
+    },
+    "qqbot": {
+      "enabled": true,
+      "allowFrom": [
+        "*"
+      ],
+      "appId": "1903488919",
+      "clientSecret": "Jh6VvMnFhAd7c7d9gDlJsR1cDpR4hLze"
     }
   },
   "gateway": {
