@@ -4,7 +4,23 @@
     "type": "c2c",
     "accountId": "default",
     "firstSeenAt": 1773482880335,
-    "lastSeenAt": 1773539603556,
+    "lastSeenAt": 1773568887885,
+    "interactionCount": 4
+  },
+  {
+    "openid": "60E9100189C71124B8B86805F8AB4B1E",
+    "type": "c2c",
+    "accountId": "product-manager",
+    "firstSeenAt": 1773577534315,
+    "lastSeenAt": 1773578016001,
+    "interactionCount": 5
+  },
+  {
+    "openid": "1C4D9BB2715646B77D3A96C375BC9B67",
+    "type": "c2c",
+    "accountId": "finance-assistant",
+    "firstSeenAt": 1773577691268,
+    "lastSeenAt": 1773577764501,
     "interactionCount": 2
   }
 ]

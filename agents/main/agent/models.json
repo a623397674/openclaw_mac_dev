@@ -70,13 +70,12 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "api": "openai-completions"
+          "maxTokens": 65536
         },
         {
           "id": "MiniMax-M2.5",
           "name": "MiniMax-M2.5",
-          "reasoning": false,
+          "reasoning": true,
           "input": [
             "text"
           ],
@@ -87,8 +86,7 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "api": "openai-completions"
+          "maxTokens": 65536
         },
         {
           "id": "glm-5",
@@ -104,8 +102,7 @@
             "cacheWrite": 0
           },
           "contextWindow": 202752,
-          "maxTokens": 16384,
-          "api": "openai-completions"
+          "maxTokens": 16384
         },
         {
           "id": "glm-4.7",
@@ -121,8 +118,7 @@
             "cacheWrite": 0
           },
           "contextWindow": 202752,
-          "maxTokens": 16384,
-          "api": "openai-completions"
+          "maxTokens": 16384
         },
         {
           "id": "kimi-k2.5",
@@ -139,8 +135,7 @@
             "cacheWrite": 0
           },
           "contextWindow": 262144,
-          "maxTokens": 32768,
-          "api": "openai-completions"
+          "maxTokens": 32768
         }
       ],
       "apiKey": "MODELSTUDIO_API_KEY"

@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-14T10:07:46.552Z"
+    "lastTouchedAt": "2026-03-15T10:48:00.000Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-14T09:28:30.326Z",
@@ -28,16 +28,8 @@
             "id": "qwen3.5-plus",
             "name": "qwen3.5-plus",
             "reasoning": false,
-            "input": [
-              "text",
-              "image"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
+            "input": ["text", "image"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
             "contextWindow": 1000000,
             "maxTokens": 65536
           },
@@ -45,15 +37,8 @@
             "id": "qwen3-max-2026-01-23",
             "name": "qwen3-max-2026-01-23",
             "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
             "contextWindow": 262144,
             "maxTokens": 65536
           },
@@ -61,125 +46,104 @@
             "id": "qwen3-coder-next",
             "name": "qwen3-coder-next",
             "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
             "contextWindow": 262144,
             "maxTokens": 65536
-          },
-          {
-            "id": "qwen3-coder-plus",
-            "name": "qwen3-coder-plus",
-            "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 1000000,
-            "maxTokens": 65536
-          },
-          {
-            "id": "MiniMax-M2.5",
-            "name": "MiniMax-M2.5",
-            "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 1000000,
-            "maxTokens": 65536
-          },
-          {
-            "id": "glm-5",
-            "name": "glm-5",
-            "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 202752,
-            "maxTokens": 16384
-          },
-          {
-            "id": "glm-4.7",
-            "name": "glm-4.7",
-            "reasoning": false,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 202752,
-            "maxTokens": 16384
-          },
-          {
-            "id": "kimi-k2.5",
-            "name": "kimi-k2.5",
-            "reasoning": false,
-            "input": [
-              "text",
-              "image"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 262144,
-            "maxTokens": 32768
           }
         ]
       }
     }
   },
   "agents": {
+    "list": [
+      {
+        "id": "product-manager",
+        "name": "产品小助手",
+        "workspace": "/Users/jie/.openclaw/workspace-agents/product-manager",
+        "model": { "primary": "modelstudio/qwen3-max-2026-01-23" }
+      },
+      {
+        "id": "backend-engineer",
+        "name": "后端老张",
+        "workspace": "/Users/jie/.openclaw/workspace-agents/backend-engineer",
+        "model": { "primary": "modelstudio/qwen3.5-plus" }
+      },
+      {
+        "id": "frontend-engineer",
+        "name": "前端小美",
+        "workspace": "/Users/jie/.openclaw/workspace-agents/frontend-engineer",
+        "model": { "primary": "modelstudio/qwen3.5-plus" }
+      },
+      {
+        "id": "finance-assistant",
+        "name": "财务小慧",
+        "workspace": "/Users/jie/.openclaw/workspace-agents/finance-assistant",
+        "model": { "primary": "modelstudio/qwen3.5-plus" }
+      },
+      {
+        "id": "customer-service",
+        "name": "客服小暖",
+        "workspace": "/Users/jie/.openclaw/workspace-agents/customer-service",
+        "model": { "primary": "modelstudio/qwen3.5-plus" }
+      }
+    ],
     "defaults": {
       "model": {
         "primary": "modelstudio/qwen3.5-plus"
       },
       "models": {
-        "modelstudio/qwen3.5-plus": {
-          "alias": "Qwen"
-        },
-        "modelstudio/qwen3-max-2026-01-23": {},
-        "modelstudio/qwen3-coder-next": {},
-        "modelstudio/qwen3-coder-plus": {},
-        "modelstudio/MiniMax-M2.5": {},
-        "modelstudio/glm-5": {},
-        "modelstudio/glm-4.7": {},
-        "modelstudio/kimi-k2.5": {}
+        "modelstudio/qwen3.5-plus": { "alias": "Qwen" }
       },
       "workspace": "/Users/jie/.openclaw/workspace",
-      "compaction": {
-        "mode": "safeguard"
-      }
+      "compaction": { "mode": "safeguard" }
     }
+  },
+  "bindings": [
+    {
+      "match": { "channel": "qqbot", "accountId": "product-manager" },
+      "agentId": "product-manager"
+    },
+    {
+      "match": { "channel": "qqbot", "accountId": "backend-engineer" },
+      "agentId": "backend-engineer"
+    },
+    {
+      "match": { "channel": "qqbot", "accountId": "frontend-engineer" },
+      "agentId": "frontend-engineer"
+    },
+    {
+      "match": { "channel": "qqbot", "accountId": "finance-assistant" },
+      "agentId": "finance-assistant"
+    },
+    {
+      "match": { "channel": "qqbot", "accountId": "customer-service" },
+      "agentId": "customer-service"
+    },
+    {
+      "match": { "channel": "feishu", "accountId": "product-manager" },
+      "agentId": "product-manager"
+    },
+    {
+      "match": { "channel": "feishu", "accountId": "backend-engineer" },
+      "agentId": "backend-engineer"
+    },
+    {
+      "match": { "channel": "feishu", "accountId": "frontend-engineer" },
+      "agentId": "frontend-engineer"
+    },
+    {
+      "match": { "channel": "feishu", "accountId": "finance-assistant" },
+      "agentId": "finance-assistant"
+    },
+    {
+      "match": { "channel": "feishu", "accountId": "customer-service" },
+      "agentId": "customer-service"
+    }
+  ],
+  "broadcast": {
+    "strategy": "parallel",
+    "feishu:FEISHU_CHAT_ID": ["product-manager", "backend-engineer", "frontend-engineer", "finance-assistant", "customer-service"]
   },
   "tools": {
     "profile": "coding"
@@ -200,15 +164,81 @@
       "appSecret": "9KcJ6j4oEjagpQUz9DGyAdbiB7OUn6Rg",
       "connectionMode": "websocket",
       "domain": "feishu",
-      "groupPolicy": "open"
+      "groupPolicy": "open",
+      "accounts": {
+        "product-manager": {
+          "enabled": true,
+          "appId": "cli_product_manager_appid",
+          "appSecret": "product_manager_secret",
+          "name": "产品小助手",
+          "groupPolicy": "open"
+        },
+        "backend-engineer": {
+          "enabled": true,
+          "appId": "cli_backend_engineer_appid",
+          "appSecret": "backend_engineer_secret",
+          "name": "后端老张",
+          "groupPolicy": "open"
+        },
+        "frontend-engineer": {
+          "enabled": true,
+          "appId": "cli_frontend_engineer_appid",
+          "appSecret": "frontend_engineer_secret",
+          "name": "前端小美",
+          "groupPolicy": "open"
+        },
+        "finance-assistant": {
+          "enabled": true,
+          "appId": "cli_finance_assistant_appid",
+          "appSecret": "finance_assistant_secret",
+          "name": "财务小慧",
+          "groupPolicy": "open"
+        },
+        "customer-service": {
+          "enabled": true,
+          "appId": "cli_customer_service_appid",
+          "appSecret": "customer_service_secret",
+          "name": "客服小暖",
+          "groupPolicy": "open"
+        }
+      }
     },
     "qqbot": {
       "enabled": true,
-      "allowFrom": [
-        "*"
-      ],
       "appId": "1903488919",
-      "clientSecret": "Jh6VvMnFhAd7c7d9gDlJsR1cDpR4hLze"
+      "clientSecret": "MguyoPp6D6bv8C7s",
+      "accounts": {
+        "product-manager": {
+          "enabled": true,
+          "appId": "1903516201",
+          "clientSecret": "iMp46vWu54ua3HH3",
+          "name": "产品小助手"
+        },
+        "backend-engineer": {
+          "enabled": true,
+          "appId": "1903517106",
+          "clientSecret": "iMrnkbHjy0oPmvqX",
+          "name": "后端老张"
+        },
+        "frontend-engineer": {
+          "enabled": true,
+          "appId": "1903517154",
+          "clientSecret": "AG9qKbeU7WhdEdol",
+          "name": "前端小美"
+        },
+        "finance-assistant": {
+          "enabled": true,
+          "appId": "1903516313",
+          "clientSecret": "xqaFk15vgKrBNSN8",
+          "name": "财务小慧"
+        },
+        "customer-service": {
+          "enabled": true,
+          "appId": "1903488919",
+          "clientSecret": "MguyoPp6D6bv8C7s",
+          "name": "客服小暖"
+        }
+      }
     }
   },
   "gateway": {
@@ -242,12 +272,8 @@
       ]
     },
     "entries": {
-      "feishu": {
-        "enabled": true
-      },
-      "openclaw-qqbot": {
-        "enabled": true
-      }
+      "feishu": { "enabled": true },
+      "openclaw-qqbot": { "enabled": true }
     },
     "installs": {
       "openclaw-qqbot": {
@@ -258,7 +284,7 @@
         "resolvedName": "@tencent-connect/openclaw-qqbot",
         "resolvedVersion": "1.5.7",
         "resolvedSpec": "@tencent-connect/openclaw-qqbot@1.5.7",
-        "integrity": "sha512-L7FmpZFRCPE8rx5T4QXeAKfoOv+UTkOBIyIcur4VPR4WVfEWAN+GMCa88VZYUf89zy834BaNzJNkHbYdasMqIg==",
+        "integrity": "sha512-L7FmpZFRCPE8rx5T4QXeAKfoOv+UTkOBIyIcur4VPR4WVfEWAN+GMCa88VZYUf89zy83VBNzJNkHbYdasMqIg==",
         "shasum": "e9ecfe9edd661bad52c78d01abd4f0817f3cbfae",
         "resolvedAt": "2026-03-14T09:31:00.437Z",
         "installedAt": "2026-03-14T09:34:57.314Z"

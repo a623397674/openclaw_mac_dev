@@ -77,3 +77,1740 @@ Run: openclaw doctor --fix
 2026-03-15T11:16:11.404+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
 2026-03-15T11:16:29.750+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
 2026-03-15T11:16:31.883+08:00 [tools] read failed: EISDIR: illegal operation on a directory, read
+2026-03-15T12:01:14.783+08:00 [ws] handshake timeout conn=2f0e7e25-5741-4622-8581-bac5ce35bb32 remote=127.0.0.1
+2026-03-15T12:01:16.708+08:00 [ws] closed before connect conn=2f0e7e25-5741-4622-8581-bac5ce35bb32 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1000 reason=n/a
+2026-03-15T12:01:32.685+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T12:03:43.590+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T12:04:20.521+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T12:05:58.000+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T12:06:19.812+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T12:07:10.334+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T12:07:15.011+08:00 [tools] exec failed: zsh:1: command not found: sysctl
+
+Command not found
+2026-03-15T12:08:06.533+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T12:08:52.816+08:00 [agent/embedded] embedded run agent end: runId=d21f6f28-9df1-4ff2-be8c-e4e52b0ad97d isError=true model=qwen3.5-plus provider=modelstudio error=LLM request timed out.
+2026-03-15T12:08:52.879+08:00 [agent/embedded] embedded run failover decision: runId=d21f6f28-9df1-4ff2-be8c-e4e52b0ad97d stage=assistant decision=surface_error reason=timeout provider=modelstudio/qwen3.5-plus profile=sha256:8ce8392169d2
+2026-03-15T12:09:12.888+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T12:09:31.373+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: api.sgroup.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:09:31.377+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:09:43.866+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: api.sgroup.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:09:43.871+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:09:44.872+08:00 [agent/embedded] embedded run agent end: runId=de2dbbb1-71f0-402d-8023-ea3fd891e7d5 isError=true model=qwen3.5-plus provider=modelstudio error=LLM request timed out.
+2026-03-15T12:09:44.923+08:00 [agent/embedded] embedded run failover decision: runId=de2dbbb1-71f0-402d-8023-ea3fd891e7d5 stage=assistant decision=surface_error reason=timeout provider=modelstudio/qwen3.5-plus profile=sha256:8ce8392169d2
+2026-03-15T12:09:59.374+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: api.sgroup.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:09:59.378+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:10:18.852+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T12:10:19.890+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: api.sgroup.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:10:19.895+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:10:51.357+08:00 [agent/embedded] embedded run agent end: runId=87746a6e-b516-4b08-b9a3-b2c2e81bb99a isError=true model=qwen3.5-plus provider=modelstudio error=LLM request timed out.
+2026-03-15T12:10:51.367+08:00 [agent/embedded] embedded run failover decision: runId=87746a6e-b516-4b08-b9a3-b2c2e81bb99a stage=assistant decision=surface_error reason=timeout provider=modelstudio/qwen3.5-plus profile=sha256:8ce8392169d2
+2026-03-15T12:11:00.343+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: api.sgroup.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:11:00.351+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:12:10.858+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: api.sgroup.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:12:10.863+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:13:21.373+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted addresses: 111.31.243.239:443, 111.31.204.84:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:13:21.379+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:14:31.889+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: api.sgroup.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:14:31.894+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:15:42.406+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted addresses: 111.31.204.84:443, 111.31.243.239:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:15:42.413+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:16:52.919+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted addresses: 111.31.204.84:443, 111.31.243.239:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:16:53.129+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+(node:492) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-15T12:27:50.782+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T12:28:29.923+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+(node:1631) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-15T12:30:31.989+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T12:30:36.657+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T12:30:51.403+08:00 [ws] handshake timeout conn=066d9781-d486-4fb6-bd55-6b113888973c remote=127.0.0.1
+2026-03-15T12:30:52.554+08:00 [ws] closed before connect conn=066d9781-d486-4fb6-bd55-6b113888973c remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1000 reason=n/a
+2026-03-15T12:31:03.279+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T12:33:15.776+08:00 [agent/embedded] embedded run agent end: runId=7376d1dc-d5db-43f2-b2b6-6acdb700d591 isError=true model=qwen3.5-plus provider=modelstudio error=terminated
+2026-03-15T12:35:36.864+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26)
+    at startGateway (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:2743:3)
+    at startAccount (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/channel.ts:270:7) {
+  [cause]: Error: getaddrinfo ENOTFOUND api.sgroup.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+      at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.sgroup.qq.com'
+  }
+}
+2026-03-15T12:35:36.868+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:35:37.884+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: Error: getaddrinfo ENOTFOUND api.sgroup.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+      at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.sgroup.qq.com'
+  }
+}
+2026-03-15T12:35:37.888+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:35:39.902+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: Error: getaddrinfo ENOTFOUND api.sgroup.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+      at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.sgroup.qq.com'
+  }
+}
+2026-03-15T12:35:39.906+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:35:44.924+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: Error: getaddrinfo ENOTFOUND api.sgroup.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+      at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.sgroup.qq.com'
+  }
+}
+2026-03-15T12:35:44.927+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+(node:438) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-15T12:36:46.383+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T12:37:40.642+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T12:37:41.241+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27)
+    at startGateway (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:2743:3)
+    at startAccount (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/channel.ts:270:7) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T12:37:41.244+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:37:42.256+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T12:37:42.259+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:37:44.384+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T12:37:44.389+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:37:49.404+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T12:37:49.409+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:37:59.422+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T12:37:59.428+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:38:29.509+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T12:38:29.633+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:39:29.697+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T12:39:29.702+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:43:39.520+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: Error: getaddrinfo ENOTFOUND api.sgroup.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.sgroup.qq.com'
+  }
+}
+2026-03-15T12:43:39.565+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:43:41.578+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: Error: getaddrinfo ENOTFOUND api.sgroup.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.sgroup.qq.com'
+  }
+}
+2026-03-15T12:43:41.582+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:43:46.600+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: Error: getaddrinfo ENOTFOUND api.sgroup.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.sgroup.qq.com'
+  }
+}
+2026-03-15T12:43:46.605+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:43:56.617+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: Error: getaddrinfo ENOTFOUND api.sgroup.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.sgroup.qq.com'
+  }
+}
+2026-03-15T12:43:56.621+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:44:26.639+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: Error: getaddrinfo ENOTFOUND api.sgroup.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.sgroup.qq.com'
+  }
+}
+2026-03-15T12:44:26.642+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+(node:436) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-15T12:46:18.964+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T12:47:04.322+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T12:47:15.062+08:00 [feishu] feishu[default]: bot info probe timed out after 10000ms; continuing startup
+2026-03-15T12:47:15.692+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27)
+    at startGateway (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:2743:3)
+    at startAccount (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/channel.ts:270:7) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2718:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2699:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT',
+    [Symbol(undici.error.UND_ERR)]: true,
+    [Symbol(undici.error.UND_ERR_CONNECT_TIMEOUT)]: true
+  }
+}
+2026-03-15T12:47:15.698+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:47:27.205+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2718:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2699:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT',
+    [Symbol(undici.error.UND_ERR)]: true,
+    [Symbol(undici.error.UND_ERR_CONNECT_TIMEOUT)]: true
+  }
+}
+2026-03-15T12:47:27.212+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:47:39.734+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2718:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2699:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT',
+    [Symbol(undici.error.UND_ERR)]: true,
+    [Symbol(undici.error.UND_ERR_CONNECT_TIMEOUT)]: true
+  }
+}
+2026-03-15T12:47:39.738+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:47:55.237+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2718:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2699:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT',
+    [Symbol(undici.error.UND_ERR)]: true,
+    [Symbol(undici.error.UND_ERR_CONNECT_TIMEOUT)]: true
+  }
+}
+2026-03-15T12:47:55.243+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:48:15.747+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2718:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2699:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT',
+    [Symbol(undici.error.UND_ERR)]: true,
+    [Symbol(undici.error.UND_ERR_CONNECT_TIMEOUT)]: true
+  }
+}
+2026-03-15T12:48:15.752+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:48:56.259+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2718:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2699:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT',
+    [Symbol(undici.error.UND_ERR)]: true,
+    [Symbol(undici.error.UND_ERR_CONNECT_TIMEOUT)]: true
+  }
+}
+2026-03-15T12:48:56.264+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:49:00.393+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T12:50:06.786+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted addresses: 111.30.185.203:443, 111.30.185.215:443, 111.30.185.62:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:50:06.790+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:51:17.094+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:51:17.101+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:51:22.635+08:00 [agent/embedded] embedded run agent end: runId=c58794a2-04fe-4aba-837c-0143050a2be0 isError=true model=qwen3.5-plus provider=modelstudio error=LLM request timed out.
+2026-03-15T12:51:22.654+08:00 [agent/embedded] embedded run failover decision: runId=c58794a2-04fe-4aba-837c-0143050a2be0 stage=assistant decision=surface_error reason=timeout provider=modelstudio/qwen3.5-plus profile=sha256:8ce8392169d2
+2026-03-15T12:52:15.316+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27)
+    at startGateway (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:2743:3)
+    at startAccount (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/channel.ts:270:7) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:52:15.321+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:52:26.835+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:52:26.839+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:52:39.349+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:52:39.352+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T12:53:01.987+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: api.sgroup.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:53:01.992+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:53:22.501+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: api.sgroup.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:53:22.505+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+2026-03-15T12:54:03.018+08:00 [qqbot-api] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at apiRequest (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:252:11)
+    at getGatewayUrl (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:330:16)
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:653:26) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: api.sgroup.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:871:19)
+      at Immediate._onImmediate (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/undici@7.24.1/node_modules/undici/lib/core/util.js:840:11)
+      at processImmediate (node:internal/timers:484:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+2026-03-15T12:54:03.024+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error [/gateway]: fetch failed
+(node:447) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-15T13:01:37.743+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T13:02:19.331+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T13:02:19.967+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27)
+    at startGateway (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:2743:3)
+    at startAccount (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/channel.ts:270:7) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T13:02:19.971+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T13:02:20.987+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T13:02:20.991+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T13:02:23.004+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T13:02:23.008+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T13:02:28.020+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T13:02:28.024+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T13:02:38.037+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T13:02:38.041+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T13:03:08.838+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T13:03:08.842+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T13:05:05.903+08:00 [openclaw] Unhandled promise rejection: AssertionError [ERR_ASSERTION]: Reached illegal state! IPV4 address change from defined to undefined!
+    at MDNSServer.handleUpdatedNetworkInterfaces (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/@homebridge+ciao@1.3.5/node_modules/@homebridge/ciao/src/MDNSServer.ts:695:18)
+    at NetworkManager.emit (node:events:531:35)
+    at NetworkManager.checkForNewInterfaces (/Users/jie/project/trea/sys-manager/openclaw-main/node_modules/.pnpm/@homebridge+ciao@1.3.5/node_modules/@homebridge/ciao/src/NetworkManager.ts:345:12)
+(node:1301) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-15T13:05:09.404+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T13:05:13.925+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+(node:432) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-15T13:18:28.206+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T13:19:31.854+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T13:19:42.598+08:00 [feishu] feishu[default]: bot info probe timed out after 10000ms; continuing startup
+2026-03-15T13:19:43.221+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27)
+    at startGateway (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:2743:3)
+    at startAccount (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/channel.ts:270:7) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2718:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2699:11)
+      at processImmediate (node:internal/timers:484:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT',
+    [Symbol(undici.error.UND_ERR)]: true,
+    [Symbol(undici.error.UND_ERR_CONNECT_TIMEOUT)]: true
+  }
+}
+2026-03-15T13:19:43.228+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T13:19:54.733+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2718:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2699:11)
+      at processImmediate (node:internal/timers:484:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT',
+    [Symbol(undici.error.UND_ERR)]: true,
+    [Symbol(undici.error.UND_ERR_CONNECT_TIMEOUT)]: true
+  }
+}
+2026-03-15T13:19:54.739+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T13:20:07.269+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2718:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2699:11)
+      at processImmediate (node:internal/timers:484:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT',
+    [Symbol(undici.error.UND_ERR)]: true,
+    [Symbol(undici.error.UND_ERR_CONNECT_TIMEOUT)]: true
+  }
+}
+2026-03-15T13:20:07.274+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T13:20:22.775+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: bots.qq.com:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2718:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2699:11)
+      at processImmediate (node:internal/timers:484:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT',
+    [Symbol(undici.error.UND_ERR)]: true,
+    [Symbol(undici.error.UND_ERR_CONNECT_TIMEOUT)]: true
+  }
+}
+2026-03-15T13:20:22.780+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T13:20:32.796+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T13:20:32.801+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T13:21:02.813+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T13:21:02.817+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+2026-03-15T13:22:02.830+08:00 [qqbot-api:1903488919] <<< Network error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14902:13
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at doFetchToken (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:115:16)
+    at /Users/jie/.openclaw/extensions/openclaw-qqbot/src/api.ts:92:14
+    at connect (/Users/jie/.openclaw/extensions/openclaw-qqbot/src/gateway.ts:651:27) {
+  [cause]: Error: getaddrinfo ENOTFOUND bots.qq.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'bots.qq.com'
+  }
+}
+2026-03-15T13:22:02.836+08:00 [qqbot] [qqbot:default] Connection failed: Error: Network error getting access_token: fetch failed
+(node:3731) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-15T13:31:42.208+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T13:31:46.736+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T18:00:26.951+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T18:01:28.283+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T18:12:01.086+08:00 [ws] handshake timeout conn=0c1c61ab-120e-44bf-946a-32fc15cc7f99 remote=127.0.0.1
+2026-03-15T18:12:02.588+08:00 [ws] closed before connect conn=0c1c61ab-120e-44bf-946a-32fc15cc7f99 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1000 reason=n/a
+2026-03-15T18:48:50.871+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T18:51:30.418+08:00 [reload] config change requires gateway restart (plugins.installs.openclaw-qqbot.integrity) — deferring until 2 operation(s), 1 reply(ies), 1 embedded run(s) complete
+(node:36267) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-15T18:52:19.054+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T18:52:23.646+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T18:52:24.347+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:52:24.352+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:52:25.461+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:52:25.465+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:52:27.586+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:52:27.590+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:52:32.730+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:52:32.734+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:52:42.890+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:52:42.895+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:53:13.073+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:53:13.078+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:54:13.231+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:54:13.235+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:55:13.429+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:55:13.433+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:56:13.569+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:56:13.573+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:57:13.707+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:57:13.712+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:57:23.987+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:57:23.992+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:57:25.144+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:57:25.148+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:57:27.249+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:57:27.253+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:57:32.395+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:57:32.401+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:57:42.604+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:57:42.608+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:58:12.744+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:58:12.750+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:59:12.886+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T18:59:12.891+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:00:13.075+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:00:13.080+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:01:13.222+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:01:13.226+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:01:22.765+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T19:01:22.844+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T19:02:13.420+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:02:13.426+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:03:13.672+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:03:13.677+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:04:13.822+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:04:13.827+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:05:14.749+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:05:14.754+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:06:14.903+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:06:14.908+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:06:53.146+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T19:07:15.039+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:07:15.044+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:08:15.231+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:08:15.237+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:08:27.310+08:00 [gateway] request handler failed: Error: cron: sessionTarget "main" is only valid for the default agent. Use sessionTarget "isolated" with payload.kind "agentTurn" for non-default agents (agentId: main)
+2026-03-15T19:08:27.317+08:00 [tools] cron failed: Error: cron: sessionTarget "main" is only valid for the default agent. Use sessionTarget "isolated" with payload.kind "agentTurn" for non-default agents (agentId: main)
+2026-03-15T19:09:15.361+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:09:15.366+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:09:57.997+08:00 [reload] config reload skipped (invalid config): broadcast.comment: Invalid input: expected array, received string
+2026-03-15T19:10:15.523+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:10:15.528+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:11:15.731+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:11:15.737+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:12:15.916+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:12:15.921+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:12:23.977+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:12:23.981+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:12:25.133+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:12:25.137+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:12:27.247+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:12:27.253+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:12:32.430+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:12:32.435+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:12:42.647+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:12:42.653+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:13:12.822+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:13:12.827+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:14:13.038+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:14:13.043+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:15:13.210+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:15:13.215+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:16:13.372+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:16:13.378+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:17:13.552+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:17:13.558+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:18:13.728+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:18:13.733+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:19:13.869+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:19:13.874+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:20:14.079+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:20:14.084+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:21:14.249+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:21:14.253+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:22:14.635+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:22:14.639+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:22:24.164+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T19:22:24.323+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:22:24.327+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:22:25.448+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:22:25.452+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:22:27.606+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:22:27.610+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:22:32.755+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:22:32.759+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:22:42.934+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:22:42.939+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:23:13.079+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:23:13.084+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:24:13.227+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:24:13.232+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:25:13.402+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:25:13.407+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:26:13.592+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:26:13.596+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:26:45.751+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T19:27:13.735+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:27:13.740+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:28:13.885+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:28:13.891+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:28:17.991+08:00 [reload] config reload skipped (invalid config): broadcast.comment: Invalid input: expected array, received string
+2026-03-15T19:28:38.816+08:00 [reload] config reload skipped (invalid config): broadcast.comment: Invalid input: expected array, received string
+2026-03-15T19:29:14.055+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:29:14.061+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:29:41.071+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T19:30:08.707+08:00 [reload] config reload skipped (invalid config): broadcast.comment: Invalid input: expected array, received string
+2026-03-15T19:30:14.214+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:30:14.220+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:31:14.352+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:31:14.357+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:32:14.498+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:32:14.504+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:33:14.881+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:33:15.016+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:34:15.078+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:34:15.083+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:35:15.267+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:35:15.271+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:36:15.457+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:36:15.463+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:37:15.708+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:37:15.712+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:37:24.140+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:37:24.147+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:37:25.308+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:37:25.312+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:37:27.428+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:37:27.434+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:37:32.656+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:37:32.663+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:37:42.814+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:37:42.819+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:38:12.958+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:38:12.962+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:39:13.132+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:39:13.136+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:40:13.384+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:40:13.389+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:41:13.613+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:41:13.619+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:42:13.766+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:42:13.771+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:43:13.975+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:43:13.981+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:43:44.607+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T19:44:14.165+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:44:14.170+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:44:18.510+08:00 [tools] edit failed: Could not find the exact text in /Users/jie/.openclaw/openclaw.json. The old text must match exactly including all whitespace and newlines.
+2026-03-15T19:44:47.617+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:44:47.624+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:44:47.628+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:44:47.726+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:44:47.788+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:44:57.484+08:00 [reload] config reload skipped (invalid config): broadcast.comment: Invalid input: expected array, received string
+2026-03-15T19:45:14.350+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:45:14.355+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:46:14.489+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:46:14.495+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:46:23.974+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:46:24.055+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:46:24.120+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:46:24.197+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:46:24.289+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:46:26.843+08:00 [reload] config change requires gateway restart (broadcast) — deferring until 2 operation(s), 1 reply(ies), 1 embedded run(s) complete
+(node:42291) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-15T19:47:14.873+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T19:47:19.325+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T19:47:20.170+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:47:20.205+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:47:20.210+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:47:20.215+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:47:20.221+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:47:20.225+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:47:20.315+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:47:20.322+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:47:20.585+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:47:21.496+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:47:21.501+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:47:23.589+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:47:23.595+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:47:28.775+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:47:28.781+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:47:38.942+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:47:38.948+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:48:09.094+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:48:09.100+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:49:09.268+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:49:09.274+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:49:19.569+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:49:19.700+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:49:19.790+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:49:19.898+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:49:19.992+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:50:09.417+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:50:09.422+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:51:09.500+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:51:09.506+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:51:19.502+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:51:19.614+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:51:19.713+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:51:19.815+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:51:19.902+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:52:09.693+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:52:09.698+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:52:19.630+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:52:19.635+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:52:20.829+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:52:20.834+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:52:22.940+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:52:22.945+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:52:28.137+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:52:28.141+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:52:38.291+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:52:38.297+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:53:08.460+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:53:08.465+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:53:19.491+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:53:19.582+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:53:19.670+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:53:19.754+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:53:19.861+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:54:08.626+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:54:08.631+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:55:08.782+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:55:08.788+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:55:19.499+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:55:19.611+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:55:19.699+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:55:19.787+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:55:19.899+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:56:08.955+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:56:08.961+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:57:09.165+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:57:09.171+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:57:19.470+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:57:19.568+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:57:19.687+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:57:19.825+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:57:19.942+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:57:55.772+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T19:57:55.857+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T19:58:09.332+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:58:09.341+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:59:09.512+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:59:09.518+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T19:59:19.495+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:59:19.587+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:59:19.705+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:59:19.802+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T19:59:19.898+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:00:09.681+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:00:09.687+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:01:09.872+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:01:09.877+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:01:19.682+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:01:19.829+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:01:19.931+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:01:20.028+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:01:20.145+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:02:10.059+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:02:10.065+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:03:10.217+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:03:10.222+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:03:19.462+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:03:19.681+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:03:19.767+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:03:19.874+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:03:19.962+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:04:10.350+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:04:10.356+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:05:10.536+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:05:10.543+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:05:19.456+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:05:19.538+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:05:19.616+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:05:19.696+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:05:19.796+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:06:10.710+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:06:10.716+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:07:00.776+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T20:07:10.880+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:07:10.886+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:07:19.557+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:07:19.631+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:07:19.635+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:07:19.651+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:07:19.754+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:07:19.861+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:07:20.006+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:07:20.801+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:07:20.807+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:07:22.896+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:07:22.901+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:07:28.084+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:07:28.090+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:07:38.237+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:07:38.242+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:08:08.490+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:08:08.498+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:09:08.714+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:09:08.720+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:09:19.475+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:09:19.582+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:09:19.766+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:09:19.860+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:09:19.970+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:10:08.898+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:10:08.904+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:11:09.064+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:11:09.069+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:11:19.727+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:11:19.810+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:11:19.900+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:11:20.009+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:11:20.118+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:12:09.216+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:12:09.222+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:13:09.358+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:13:09.363+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:13:19.476+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:13:19.559+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:13:19.646+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:13:19.733+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:13:19.818+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:14:09.527+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:14:09.533+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:15:09.666+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:15:09.673+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:15:19.480+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:15:19.586+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:15:19.700+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:15:19.801+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:15:19.883+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:16:09.821+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:16:09.827+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:17:09.977+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:17:09.983+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:17:19.467+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:17:19.551+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:17:19.643+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:17:19.727+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:17:19.819+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:18:10.136+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:18:10.142+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:19:10.272+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:19:10.277+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:19:19.460+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:19:19.540+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:19:19.633+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:19:19.723+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:19:19.810+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:20:10.435+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:20:10.440+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:20:26.826+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T20:21:10.590+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:21:10.596+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:21:19.481+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:21:19.570+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:21:19.667+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:21:19.739+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:21:19.836+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:22:10.728+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:22:10.734+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:22:19.616+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:22:19.621+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:22:20.716+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:22:20.721+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:22:22.811+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:22:22.816+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:22:27.953+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:22:27.958+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:22:38.116+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:22:38.122+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:23:08.274+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:23:08.279+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:23:19.572+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:23:19.668+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:23:19.749+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:23:19.822+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:23:19.911+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:24:08.448+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:24:08.453+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:24:36.610+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T20:25:08.644+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:25:08.650+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:25:19.577+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:25:19.670+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:25:19.793+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:25:19.884+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:25:20.015+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:25:35.261+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T20:26:08.813+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:26:08.819+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+(node:46695) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-15T20:26:39.213+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T20:26:43.770+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T20:26:44.654+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:26:44.660+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:26:44.675+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:26:44.684+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:26:44.740+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:26:44.762+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:26:44.767+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:26:44.838+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:26:44.929+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:26:45.884+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:26:45.889+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:26:47.980+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:26:47.985+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:26:53.186+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:26:53.191+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:27:03.325+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:27:03.331+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:27:33.511+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:27:33.516+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:28:12.393+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T20:28:12.464+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T20:28:15.242+08:00 [tools] read failed: ENOENT: no such file or directory, access '/Users/jie/.openclaw/workspace-agents/finance-assistant/MEMORY.md'
+2026-03-15T20:28:33.655+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:28:33.660+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:28:44.002+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:28:44.082+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:28:44.156+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:28:44.241+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:28:44.329+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:29:01.314+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T20:29:25.481+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T20:29:33.819+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:29:33.824+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:29:48.805+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T20:30:33.974+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:30:33.979+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:30:44.068+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:30:44.203+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:30:44.293+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:30:44.387+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:30:44.470+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:31:34.134+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:31:34.139+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:31:44.316+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:31:44.322+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:31:45.435+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:31:45.439+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:31:47.531+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:31:47.538+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:31:48.657+08:00 [qqbot] [qqbot:product-manager] No response within timeout
+2026-03-15T20:31:52.669+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:31:52.675+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:32:02.808+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:32:02.814+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:32:33.001+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:32:33.007+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:32:44.988+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:32:45.078+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:32:45.173+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:32:45.406+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:32:45.523+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:33:33.151+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:33:33.157+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:34:33.339+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:34:33.344+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:34:45.000+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:34:45.138+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:34:45.243+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:34:45.398+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:34:45.491+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:34:50.229+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T20:34:50.272+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T20:35:33.495+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:35:33.500+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:36:33.816+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:36:33.825+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:36:44.193+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:36:44.544+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:36:44.797+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:36:45.004+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:36:45.129+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:37:34.043+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:37:34.049+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:38:34.201+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:38:34.208+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:38:44.031+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:38:44.191+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:38:44.340+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:38:44.438+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:38:44.565+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:39:34.372+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:39:34.379+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:39:48.781+08:00 [agent/embedded] embedded run timeout: runId=43e6676a-3e89-421b-a991-04dfe82a6a83 sessionId=a772db64-cc48-4f69-bebf-262291eb0a29 timeoutMs=600000
+2026-03-15T20:40:05.612+08:00 [agent/embedded] Profile modelstudio:default timed out. Trying next account...
+2026-03-15T20:40:05.658+08:00 [agent/embedded] embedded run failover decision: runId=43e6676a-3e89-421b-a991-04dfe82a6a83 stage=assistant decision=surface_error reason=timeout provider=modelstudio/qwen3.5-plus profile=sha256:8ce8392169d2
+2026-03-15T20:40:05.723+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch, cron). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T20:40:34.688+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:40:34.695+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:40:44.343+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:40:44.750+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:40:44.977+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:40:45.231+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:40:45.416+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:41:34.994+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:41:35.001+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:42:35.244+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:42:35.252+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:42:43.988+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:42:44.170+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:42:44.299+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:42:44.395+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:42:44.492+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:43:35.392+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:43:35.402+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:44:35.544+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:44:35.550+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:44:43.998+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:44:44.092+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:44:44.208+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:44:44.304+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:44:44.383+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:45:35.741+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:45:35.747+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:46:35.888+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:46:35.894+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:46:44.409+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:46:44.516+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:46:44.563+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:46:44.572+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:46:44.720+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:46:44.839+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:46:44.908+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:46:45.664+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:46:45.670+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:46:47.840+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:46:47.845+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:46:51.912+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T20:46:53.172+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:46:53.176+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:47:03.327+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:47:03.332+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:47:33.471+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:47:33.476+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:48:33.621+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:48:33.627+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:48:43.954+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:48:44.374+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:48:44.454+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:48:44.539+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:48:44.646+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:49:33.762+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:49:33.767+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:50:33.959+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:50:33.965+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:50:44.022+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:50:44.117+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:50:44.231+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:50:44.327+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:50:44.411+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:51:34.093+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:51:34.099+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:52:34.275+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:52:34.279+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:52:44.024+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:52:44.178+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:52:44.330+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:52:44.470+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:52:44.610+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:53:34.448+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:53:34.453+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:54:34.598+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:54:34.603+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:54:44.122+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:54:44.286+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:54:44.452+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:54:44.623+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:54:44.796+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:55:34.742+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:55:34.748+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:56:35.020+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:56:35.026+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:56:43.970+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:56:44.136+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:56:44.266+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:56:44.343+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:56:44.444+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:57:35.157+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:57:35.164+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:58:35.286+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:58:35.292+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:58:37.643+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T20:58:43.960+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:58:44.141+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:58:44.238+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:58:44.339+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:58:44.436+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T20:59:35.424+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T20:59:35.429+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:00:35.608+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:00:35.613+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:00:43.972+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:00:44.074+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:00:44.162+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:00:44.252+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:00:44.505+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:01:35.827+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:01:35.832+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:01:44.208+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:01:44.226+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:01:44.232+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:01:44.304+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:01:44.389+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:01:44.476+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:01:45.367+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:01:45.373+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:01:47.476+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:01:47.482+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:01:52.633+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:01:52.638+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:02:02.772+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:02:02.777+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:02:32.936+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:02:32.941+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:02:44.187+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:03:33.150+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:03:33.155+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:03:44.206+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:03:44.297+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:03:44.388+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:03:44.484+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:03:44.586+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:04:33.307+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:04:33.313+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:05:33.433+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:05:33.439+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:05:44.174+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:05:44.277+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:05:44.405+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:05:44.528+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:05:44.616+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:06:33.642+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:06:33.648+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:07:33.844+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:07:33.850+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:07:44.169+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:07:44.248+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:07:44.338+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:07:44.444+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:07:44.531+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:08:34.009+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:08:34.015+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:09:34.194+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:09:34.199+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:09:44.159+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:09:44.255+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:09:44.330+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:09:44.506+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:09:44.600+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:10:34.356+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:10:34.362+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:11:34.503+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:11:34.509+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:11:44.145+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:11:44.229+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:11:44.320+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:11:44.406+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:11:44.493+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:12:34.686+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:12:34.693+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:13:34.845+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:13:34.851+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:13:44.195+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:13:44.294+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:13:44.423+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:13:44.516+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:13:44.603+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:14:35.179+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:14:35.186+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:15:35.408+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:15:35.416+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:15:44.141+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:15:44.615+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:15:45.283+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:15:45.792+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:15:46.209+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:16:37.227+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:16:37.395+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:16:44.378+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:16:44.383+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:16:45.488+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:16:45.494+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:16:47.592+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:16:47.598+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:16:52.734+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:16:52.740+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:17:02.893+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:17:02.900+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:17:33.066+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:17:33.073+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:17:44.287+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:17:44.407+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:17:44.511+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:17:44.617+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:17:44.705+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:18:33.297+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:18:33.303+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:19:33.492+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:19:33.498+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:19:44.263+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:19:44.345+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:19:44.442+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:19:44.534+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:19:44.603+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:20:33.697+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:20:33.703+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:21:33.893+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:21:33.899+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:21:44.244+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:21:44.331+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:21:44.445+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:21:44.524+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:21:44.615+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:22:34.108+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:22:34.114+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:23:34.268+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:23:34.274+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:23:44.267+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:23:44.367+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:23:44.492+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:23:44.598+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:23:44.692+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:24:34.479+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:24:34.485+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:25:34.618+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:25:34.624+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:25:44.238+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:25:44.322+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:25:44.407+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:25:44.483+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:25:44.579+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:26:34.771+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:26:34.777+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:27:34.965+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:27:34.971+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:27:44.307+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:27:44.442+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:27:44.536+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:27:44.638+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:27:44.731+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:28:35.191+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:28:35.197+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:29:35.320+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:29:35.326+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:29:44.265+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:29:44.398+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:29:44.484+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:29:44.588+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:29:44.676+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:30:35.464+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:30:35.470+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:31:35.618+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:31:35.624+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:31:44.112+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:31:44.119+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:31:44.247+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:31:44.363+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:31:44.446+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:31:44.534+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:31:44.677+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:31:45.220+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:31:45.225+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:31:47.321+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:31:47.327+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:31:52.520+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:31:52.526+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:32:02.674+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:32:02.680+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:32:32.817+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:32:32.823+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:33:09.190+08:00 [tools] tools.profile (coding) allowlist contains unknown entries (apply_patch). These entries are shipped core tools but unavailable in the current runtime/provider/model/config.
+2026-03-15T21:33:32.998+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:33:33.004+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:33:44.028+08:00 [reload] config reload skipped (invalid config): agents.list.0: Unrecognized key: "comment"
+2026-03-15T21:33:44.224+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:33:44.295+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:33:44.372+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:33:44.459+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:33:44.526+08:00 [warn]: [ 'failed to obtain token' ]
+(node:54278) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-15T21:34:13.524+08:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T21:34:18.254+08:00 [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/jie/project/trea/sys-manager/openclaw-main/extensions/feishu/index.ts), openclaw-qqbot (/Users/jie/.openclaw/extensions/openclaw-qqbot/index.ts). Set plugins.allow to explicit trusted ids.
+2026-03-15T21:34:19.067+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:34:19.076+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:34:19.087+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:34:19.093+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:34:19.099+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:34:19.187+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:34:19.192+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:34:19.220+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:34:20.283+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:34:20.288+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:34:22.394+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:34:22.400+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:34:27.580+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:34:27.586+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:34:37.776+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:34:37.782+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:35:07.932+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:35:07.939+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:36:08.144+08:00 [qqbot] [qqbot:default] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:36:08.150+08:00 [qqbot] [qqbot:customer-service] Connection failed: Error: Failed to get access_token: {"code":100016,"message":"invalid appid or secret"}
+2026-03-15T21:36:18.541+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:36:18.664+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:36:18.755+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:36:18.858+08:00 [warn]: [ 'failed to obtain token' ]
+2026-03-15T21:36:18.950+08:00 [warn]: [ 'failed to obtain token' ]

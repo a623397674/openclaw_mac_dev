@@ -1,4 +1,32 @@
 {
   "version": 1,
-  "jobs": []
+  "jobs": [
+    {
+      "id": "9b67fdea-8993-4868-bb62-c70794252fa9",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "Token 消耗日报",
+      "enabled": true,
+      "createdAtMs": 1773572912643,
+      "updatedAtMs": 1773572912643,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "你是财务小慧，请执行以下任务：\n\n1. 运行 token 统计脚本：`node /Users/jie/.openclaw/workspace-agents/finance-assistant/scripts/token-stats.js`\n2. 将生成的报告发送到 QQ 623397674\n3. 在报告中列出每个 Agent 的 token 消耗和成本\n\n这是每日定时任务，发送昨天的 Token 消耗日报。",
+        "timeoutSeconds": 60
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1773622800000
+      }
+    }
+  ]
 }

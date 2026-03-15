@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "nodeId": "a4315f2a-ced4-4830-a468-0f1fb82255c4",
+  "displayName": "杰的MacBook Pro",
+  "gateway": {
+    "host": "ai.todesk.com",
+    "port": 443,
+    "tls": true
+  }
+}

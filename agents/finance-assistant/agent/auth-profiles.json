@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "profiles": {
+    "modelstudio:default": {
+      "type": "api_key",
+      "provider": "modelstudio",
+      "key": "sk-6e5b235af63b45d3bbb385e13183949a"
+    }
+  },
+  "usageStats": {
+    "modelstudio:default": {
+      "errorCount": 0,
+      "lastUsed": 1773577804840
+    }
+  }
+}
